@@ -3,8 +3,8 @@ import Card from "./Card.jsx";
 
 const data = [{
     id:1,
-    title: "TestImage de Kirby gourmand",
-    description: "Ceci est une image de test avec Kirby.",
+    title: "Kirby gourmand",
+    description: "Ceci est une image avec Kirby.",
     imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9568YouEscV9rW_pU3QlYjuTWiW_5X6HILQ&s"
 },{
     id: 2,
