@@ -1,5 +1,5 @@
 // @ts-ignore
-import {Footer, Header, Button, Cards, TaskInput} from "../components";
+import {Footer, Header, Button, Cards, TaskInput, Pokemon} from "../components";
 import {index} from "@react-router/dev/routes";
 import {useState} from "react";
 
@@ -23,6 +23,8 @@ function Welcome() {
         <h1 >Ma Todo List </h1 >
         <TaskInput onAddTask ={ addTask } />
         <ul >{tasks} </ul >
+
+        <Pokemon/>
 
         <Cards></Cards>
 
